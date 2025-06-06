@@ -14,7 +14,7 @@ Baseado nas áreas de risco registradas, a API permite identificar caminhos mais
 💾 Persistência de dados com Oracle Database
 Todos os dados são armazenados de forma segura e eficiente usando um banco de dados Oracle.
 
-🧪 Testes e visualização via Swagger
+🧪 visualização via Swagger
 A API está totalmente documentada e pode ser testada diretamente através da interface do Swagger.
 
 🖥️ Interface web com Razor Pages
@@ -35,5 +35,6 @@ C#
 
 🚀 Como Executar o Projeto?
 
-Primerio sera necessario clonar o repositorio, após isso antes de rodar certifiquese de configurar para iniciar tanto a API quanto o web app razor pages,
-Apenas apos isto rodar.
+Primerio sera necessario clonar o repositorio, após isso antes de rodar certifiquese de configurar para iniciar tanto a API quanto o web app razor pages. Assim como no print abaixo<br>
+![image](https://github.com/user-attachments/assets/70f74951-5048-4f9f-85d8-53543a65aa4d)
+
