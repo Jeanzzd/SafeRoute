@@ -1,0 +1,18 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Página Inicial";
+}
+
+<!-- Link para o CSS personalizado -->
+<link rel="stylesheet" href="~/css/Index.css" />
+
+<div class="container-principal">
+    <h1>Bem-vindo ao Sistema de Segurança</h1>
+    <p>Escolha uma das opções abaixo:</p>
+
+    <div>
+        <a asp-page="/AreaRiscos" class="btn-custom btn-riscos">Área com Riscos</a>
+        <a asp-page="/RotasSeguranca" class="btn-custom btn-rotas">Rotas de Segurança</a>
+    </div>
+</div>

@@ -1,0 +1,31 @@
+﻿@page
+@model RotasSegurancaModel
+@{
+    ViewData["Title"] = "Rotas de Segurança";
+}
+
+<!-- Link para o CSS igual das outras páginas -->
+<link rel="stylesheet" href="~/css/MetodosGet.css" />
+
+<div class="container-principal">
+    <h2>Rotas de Segurança</h2>
+
+    @if (Model.Rotas != null && Model.Rotas.Any())
+    {
+        <ul>
+            @foreach (var rota in Model.Rotas)
+            {
+                <li>
+                    <strong>Nome:</strong> <span>@rota.Nome</span>
+                    <strong>Instruções:</strong> <span>@rota.Instrucoes</span>
+                    <strong>Pontos de Passagem:</strong> <span>@rota.PontosDePassagem</span>
+                    <strong>Área de Risco ID:</strong> <span>@rota.AreaDeRiscoId</span>
+                </li>
+            }
+        </ul>
+    }
+    else
+    {
+        <p>Nenhuma rota de segurança encontrada.</p>
+    }
+</div>
